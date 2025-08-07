@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include INSTALL.md
+include sample_lulc_plot.png
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
