@@ -93,7 +93,7 @@ conda install -c conda-forge xarray numpy matplotlib cartopy rasterio netcdf4
 
 3. **Install the package:**
 ```bash
-git clone https://github.com/yourusername/wrf-nlcd-lulc-converter.git
+git clone https://github.com/ankurk017/wrf-nlcd-lulc-converter.git
 cd wrf-nlcd-lulc-converter
 pip install -e .
 ```

@@ -188,6 +188,25 @@ Plot WRF domain information with LULC data.
 #### `create_sample_plot()`
 Generate a sample plot for demonstration purposes.
 
+### Colormap Module
+
+The package includes a comprehensive colormap module (`wrf_nlcd_lulc_converter.colormap`) with functions for:
+
+#### `get_lulc_colormap()`
+Get the 40-class LULC colormap with exact colors from the original notebook.
+
+#### `get_lulc_normalization()`
+Get normalization bounds, ticks, and labels for LULC plotting.
+
+#### `create_colorbar()`
+Create standardized colorbars for LULC plots.
+
+#### `get_class_info()`
+Get label and color information for specific LULC classes.
+
+#### `plot_colormap_legend()`
+Create comprehensive legends showing all 40 LULC classes.
+
 ## Examples
 
 See the `examples/` directory for complete working examples that use the actual WRF file (`/nas/rstor/akumar/common/sample_geog/geo_em.d02.nc`):

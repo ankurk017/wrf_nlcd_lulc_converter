@@ -93,6 +93,21 @@ Now includes visualization step that creates:
 - Updated LULC plot  
 - Urban comparison plot
 
+### `examples/simple_wrf_example.py`
+New example using actual WRF file that demonstrates:
+- Real WRF data analysis (370,152 pixels)
+- Actual LULC class distribution (28 classes)
+- Urban area analysis (1.94% urban coverage)
+- Multiple visualization types
+- Statistics and comparisons
+
+### `examples/colormap_example.py`
+Demonstrates the colormap module with:
+- All colormap functions
+- Real WRF data integration
+- Legend generation
+- Urban-specific plotting
+
 ## Features
 
 ### Geographic Context

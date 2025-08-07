@@ -25,9 +25,14 @@ wrf_nlcd_lulc_converter/
 │   ├── __init__.py                   # Package initialization
 │   ├── processor.py                  # Main processing class
 │   ├── mapping.py                    # LULC class definitions
+│   ├── colormap.py                   # Colormap and visualization utilities
+│   ├── plotting.py                   # Geographic plotting functions
 │   ├── utils.py                      # Utility functions
 │   └── cli.py                       # Command-line interface
 ├── examples/                         # Usage examples
+│   ├── simple_wrf_example.py        # Simple example with actual WRF data
+│   ├── colormap_example.py          # Colormap module demonstration
+│   ├── plotting_example.py          # Comprehensive plotting examples
 │   ├── basic_example.py             # Basic usage
 │   ├── custom_mapping_example.py    # Custom mappings
 │   ├── urban_only_example.py        # Urban-only processing
@@ -56,7 +61,21 @@ wrf_nlcd_lulc_converter/
 - `update_lu_index_and_landusef_in_netcdf()`: Update WRF files
 - `extract_wrf_domain_info()`: Extract WRF domain information
 
-### 4. **Command-Line Interface**
+### 4. **Colormap Module** - Visualization Utilities
+- `get_lulc_colormap()`: 40-class LULC colormap with exact colors
+- `get_lulc_normalization()`: Normalization bounds and labels
+- `create_colorbar()`: Standardized colorbar creation
+- `get_class_info()`: Class information retrieval
+- `plot_colormap_legend()`: Comprehensive legend generation
+
+### 5. **Plotting Module** - Geographic Visualization
+- `plot_lulc_data()`: Geographic LULC data plotting
+- `plot_urban_comparison()`: Before/after urban comparisons
+- `plot_domain_info()`: WRF domain visualization
+- `create_sample_plot()`: Sample plot generation
+- Cartopy integration for geographic context
+
+### 6. **Command-Line Interface**
 - Easy-to-use CLI for batch processing
 - Support for all major features
 - Helpful error messages and validation
@@ -120,6 +139,10 @@ processor.process_nlcd_and_update_wrf(
 6. **CLI**: Command-line interface for batch processing
 7. **Flexibility**: Support for custom mappings and parameters
 8. **Professional Structure**: Proper Python package structure
+9. **Visualization**: Comprehensive plotting and colormap utilities
+10. **Real Data Examples**: Examples using actual WRF files
+11. **Colormap Module**: Centralized colormap management
+12. **Geographic Context**: Cartopy integration for maps
 
 ## Data Requirements
 
