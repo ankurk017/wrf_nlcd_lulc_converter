@@ -220,6 +220,13 @@ See the `examples/` directory for complete working examples that use the actual 
 - `complete_workflow_example.py`: Complete workflow with visualization
 - `urban_only_example.py`: Example for urban-only processing
 
+## Documentation
+
+- [Installation Guide](INSTALL.md) - Detailed installation instructions
+- [Package Summary](PACKAGE_SUMMARY.md) - Overview of package structure and features
+- [Plotting Summary](PLOTTING_SUMMARY.md) - Detailed plotting documentation
+- [Full Documentation](https://ankurk017.github.io/wrf_nlcd_lulc_converter/) - Complete Sphinx documentation with API reference
+
 ## Data Sources
 
 ### NLCD Data
