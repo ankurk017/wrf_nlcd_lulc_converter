@@ -90,9 +90,9 @@ from wrf_nlcd_lulc_converter import NLCDProcessor
 # Initialize processor
 processor = NLCDProcessor()
 
-# Process NLCD data and update WRF file
+# Process NLCD data and update WRF file (Matrix users can use the default NLCD folder)
 processor.process_nlcd_and_update_wrf(
-    nlcd_file="path/to/nlcd.tif",
+    nlcd_file="/nas/rstor/akumar/common/NLCD_raw_maps/Annual_NLCD_LndCov_2017_CU_C1V1.tif",
     wrf_file="path/to/geo_em.d02.nc",
     output_file="path/to/geo_em_updated.nc",
     year="2017"
@@ -102,11 +102,11 @@ processor.process_nlcd_and_update_wrf(
 ### Command Line Interface
 
 ```bash
-# Basic usage
-wrf-nlcd-converter --nlcd-file path/to/nlcd.tif --wrf-file path/to/geo_em.d02.nc --output-file path/to/output.nc --year 2017
+# Basic usage (Matrix users can use the default NLCD folder)
+wrf-nlcd-converter --nlcd-file /nas/rstor/akumar/common/NLCD_raw_maps/Annual_NLCD_LndCov_2017_CU_C1V1.tif --wrf-file path/to/geo_em.d02.nc --output-file path/to/output.nc --year 2017
 
 # With custom domain margins
-wrf-nlcd-converter --nlcd-file path/to/nlcd.tif --wrf-file path/to/geo_em.d02.nc --output-file path/to/output.nc --year 2017 --margin 2.0
+wrf-nlcd-converter --nlcd-file /nas/rstor/akumar/common/NLCD_raw_maps/Annual_NLCD_LndCov_2017_CU_C1V1.tif --wrf-file path/to/geo_em.d02.nc --output-file path/to/output.nc --year 2017 --margin 2.0
 ```
 
 ### Advanced Usage
@@ -225,6 +225,11 @@ See the `examples/` directory for complete working examples that use the actual 
 ### NLCD Data
 
 Download NLCD data from the [MRLC Viewer](https://www.mrlc.gov/data?f%5B0%5D=category%3ALand%20Cover&f%5B1%5D=project_tax_term_term_parents_tax_term_name%3AAnnual%20NLCD&f%5B2%5D=project_tax_term_term_parents_tax_term_name%3AAnnual%20NLCD)
+
+**Note for Matrix Users**: NLCD raw maps from 1985 to 2024 are available in the default folder:
+```
+/nas/rstor/akumar/common/NLCD_raw_maps
+```
 
 ### WRF geo_em Files
 

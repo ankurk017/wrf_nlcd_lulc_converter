@@ -28,12 +28,12 @@ def main():
     print("WRF NLCD LULC Converter - Complete Workflow Example")
     print("=" * 60)
     
-    # Set up file paths using actual WRF file
-    nlcd_raw_map_folder = '/path/to/your/NLCD/folder/'
+    # Set up file paths using actual WRF file and default NLCD folder
+    nlcd_raw_map_folder = '/nas/rstor/akumar/common/NLCD_raw_maps'
     year = '2017'
     infile_geog01 = '/nas/rstor/akumar/common/sample_geog/geo_em.d02.nc'
     
-    # Construct NLCD file path
+    # Construct NLCD file path (Matrix users can use the default folder)
     raw_NLCD_map = f'{nlcd_raw_map_folder}/Annual_NLCD_LndCov_{year}_CU_C1V1.tif'
     
     # Check if files exist

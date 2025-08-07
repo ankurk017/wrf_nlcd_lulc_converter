@@ -29,6 +29,9 @@ Examples:
   
   # Urban classes only
   wrf-nlcd-converter --nlcd-file nlcd_2017.tif --wrf-file geo_em.d02.nc --output-file geo_em_urban.nc --year 2017 --urban-only
+
+Note for Matrix Users:
+  NLCD raw maps from 1985 to 2024 are available in: /nas/rstor/akumar/common/NLCD_raw_maps
         """
     )
     
@@ -36,7 +39,7 @@ Examples:
     parser.add_argument(
         "--nlcd-file",
         required=True,
-        help="Path to the NLCD GeoTIFF file"
+        help="Path to the NLCD GeoTIFF file (Matrix users: /nas/rstor/akumar/common/NLCD_raw_maps/)"
     )
     
     parser.add_argument(

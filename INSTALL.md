@@ -172,6 +172,11 @@ conda install -c conda-forge cartopy
 - Annual NLCD Land Cover data (GeoTIFF format)
 - File naming convention: `Annual_NLCD_LndCov_YYYY_CU_C1V1.tif`
 
+**Matrix Users**: NLCD raw maps from 1985 to 2024 are available in:
+```
+/nas/rstor/akumar/common/NLCD_raw_maps
+```
+
 ### WRF geo_em Files
 - Generated using WPS (WRF Preprocessing System)
 - NetCDF format with LU_INDEX and LANDUSEF variables
