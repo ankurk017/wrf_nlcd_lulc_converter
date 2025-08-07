@@ -6,7 +6,7 @@
 
 A Python package for converting National Land Cover Database (NLCD) land use data and updating WRF (Weather Research and Forecasting) geo_em files with new land use information.
 
-📚 **[Full Documentation](https://wrf-nlcd-lulc-converter.readthedocs.io/)** | 🐛 [Report Issues](https://github.com/ankurk017/wrf_nlcd_lulc_converter/issues) | 💬 [Discussions](https://github.com/ankurk017/wrf_nlcd_lulc_converter/discussions)
+📚 **[Full Documentation](https://wrf-nlcd-lulc-converter.readthedocs.io/en/latest/)** | 🐛 [Report Issues](https://github.com/ankurk017/wrf_nlcd_lulc_converter/issues) | 💬 [Discussions](https://github.com/ankurk017/wrf_nlcd_lulc_converter/discussions)
 
 ## Repository
 

@@ -213,7 +213,7 @@ After successful installation:
 Getting Help
 -----------
 
-* **Documentation**: See :doc:`usage` and docstrings in the code
+* **Documentation**: `Live Documentation <https://wrf-nlcd-lulc-converter.readthedocs.io/en/latest/>`_
 * **Examples**: Check the ``examples/`` directory
 * **Issues**: Report bugs on `GitHub <https://github.com/ankurk017/wrf_nlcd_lulc_converter/issues>`_
 * **Questions**: Open a discussion on `GitHub <https://github.com/ankurk017/wrf_nlcd_lulc_converter/discussions>`_

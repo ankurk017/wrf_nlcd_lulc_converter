@@ -287,6 +287,7 @@ Contact Information
 * **Maintainer**: Ankur Kumar
 * **Email**: ankurk017@gmail.com, ankur.kumar@uah.edu, ankur.kumar@nasa.gov
 * **GitHub**: https://github.com/ankurk017/wrf_nlcd_lulc_converter
+* **Documentation**: https://wrf-nlcd-lulc-converter.readthedocs.io/en/latest/
 * **Issues**: https://github.com/ankurk017/wrf_nlcd_lulc_converter/issues
 * **Discussions**: https://github.com/ankurk017/wrf_nlcd_lulc_converter/discussions
 

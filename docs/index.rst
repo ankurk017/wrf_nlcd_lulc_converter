@@ -76,6 +76,7 @@ Repository Information
 ---------------------
 
 * **GitHub**: https://github.com/ankurk017/wrf_nlcd_lulc_converter
+* **Documentation**: https://wrf-nlcd-lulc-converter.readthedocs.io/en/latest/
 * **Author**: Ankur Kumar
 * **Contact**: ankurk017@gmail.com, ankur.kumar@uah.edu, ankur.kumar@nasa.gov
 * **License**: Apache 2.0
