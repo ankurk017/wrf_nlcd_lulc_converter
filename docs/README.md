@@ -64,7 +64,7 @@ The API documentation is automatically generated from docstrings in the source c
 
 ## Deployment
 
-The documentation is automatically deployed to GitHub Pages when changes are pushed to the main branch via GitHub Actions.
+The documentation is automatically deployed to Read the Docs when changes are pushed to the main branch. The documentation is hosted at: https://wrf-nlcd-lulc-converter.readthedocs.io/
 
 ## Contributing to Documentation
 

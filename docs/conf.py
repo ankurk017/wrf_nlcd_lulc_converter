@@ -46,5 +46,5 @@ html_theme_options = {
     'collapse_navigation': False,
 }
 
-# GitHub pages settings
-html_baseurl = 'https://ankurk017.github.io/wrf_nlcd_lulc_converter/'
+# Read the Docs settings
+html_baseurl = 'https://wrf-nlcd-lulc-converter.readthedocs.io/'

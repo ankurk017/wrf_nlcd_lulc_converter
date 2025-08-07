@@ -41,6 +41,10 @@ setup(
             "black>=22.0",
             "flake8>=4.0",
         ],
+        "docs": [
+            "sphinx>=4.0",
+            "sphinx-rtd-theme>=1.0",
+        ],
     },
     entry_points={
         "console_scripts": [
