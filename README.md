@@ -15,9 +15,9 @@ This package is maintained by [Ankur Kumar](https://github.com/ankurk017) and is
 
 ## Sample Output
 
-![Sample LULC Plot](sample_lulc_plot.png)
+![Actual WRF LULC Data](sample_lulc_plot.png)
 
-*Sample LULC data visualization for the Houston area showing different land use classes.*
+*Actual LULC data from WRF geo_em file showing real land use classes for the Texas/Gulf Coast region (370,152 pixels, 28 unique classes).*
 
 ## Origin
 
