@@ -97,11 +97,11 @@ def plot_urban_comparison(original_lulc, updated_lulc, longitudes, latitudes,
         dpi (int): DPI for saved image
     """
     # Get colormap and normalization
-    cmap, _, _, vmin, vmax = get_lulc_colormap()
+    cmap, labels, _, vmin, vmax = get_lulc_colormap()
     urban_classes = [21, 22, 23, 24, 25, 26]
     
-    # Create figure with subplots
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 8), 
+    # Create figure with subplots and adjust for colorbar
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(22, 8), 
                                     subplot_kw={'projection': ccrs.PlateCarree()})
     
     # Plot original urban areas
@@ -122,10 +122,17 @@ def plot_urban_comparison(original_lulc, updated_lulc, longitudes, latitudes,
     plot_coast(ax2, houston=True, houston_color='k', houston_linewidth=0.5)
     ax2.set_title("Updated Urban Areas")
     
-    # Add standardized colorbar
-    create_colorbar(ax1, out1)
+    # Add colorbar with proper positioning
+    cbar = plt.colorbar(out1, ax=[ax1, ax2], orientation='vertical', 
+                        fraction=0.046, pad=0.04, ticks=np.arange(1, 41))
+    cbar.set_label('LULC Class')
+    cbar.set_ticks(np.arange(1, 41))
+    cbar.set_ticklabels([f"{i+1}: {labels[i]}" for i in range(40)])
     
     plt.suptitle(title)
+    
+    # Adjust layout to prevent overlapping
+    plt.tight_layout()
     
     # Save plot if path provided
     if save_path:

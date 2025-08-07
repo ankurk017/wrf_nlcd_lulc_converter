@@ -7,7 +7,7 @@ and updating WRF (Weather Research and Forecasting) geo_em files with new land u
 
 __version__ = "0.1.0"
 __author__ = "Ankur Kumar"
-__email__ = "ankur.kumar@example.com"
+__email__ = "ankurk017@gmail.com"
 
 from .processor import NLCDProcessor
 from .mapping import LULCMapping

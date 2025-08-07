@@ -7,7 +7,7 @@ setup(
     name="wrf-nlcd-lulc-converter",
     version="0.1.0",
     author="Ankur Kumar",
-    author_email="ankur.kumar@example.com",
+    author_email="ankurk017@gmail.com",
     description="A Python package for converting NLCD land use data and updating WRF geo_em files",
     long_description=long_description,
     long_description_content_type="text/markdown",

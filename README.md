@@ -10,6 +10,9 @@ A Python package for converting National Land Cover Database (NLCD) land use dat
 
 This package is maintained by [Ankur Kumar](https://github.com/ankurk017) and is available at: https://github.com/ankurk017/wrf_nlcd_lulc_converter
 
+**Contact Information:**
+- Email: ankurk017@gmail.com, ankur.kumar@uah.edu, ankur.kumar@nasa.gov
+
 ## Sample Output
 
 ![Sample LULC Plot](sample_lulc_plot.png)
@@ -248,6 +251,7 @@ If you use this package in your research, please cite:
   title={WRF NLCD LULC Converter},
   author={Ankur Kumar},
   year={2024},
-  url={https://github.com/ankurk017/wrf-nlcd-lulc-converter}
+  url={https://github.com/ankurk017/wrf-nlcd-lulc-converter},
+  note={Contact: ankurk017@gmail.com, ankur.kumar@uah.edu, ankur.kumar@nasa.gov}
 }
 ```
